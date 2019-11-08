@@ -1,0 +1,1465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Conquer Club :: Central Command - Play Risk Online Free</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--<meta name="robots" content="NOODP">-->
+<meta name="description" content="Play Risk Online Free at Conquer Club" />
+<meta name="keywords" content="conquer club,risk,play risk free,game,online game,free game,board game,multiplayer,world domination" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="https://d3udgt0w45hpcz.cloudfront.net/favicon.ico" />
+	<link rel="alternate" type="application/rss+xml" title="Conquer Club: Sk00g's games" href="rss.php?user_id=839136" />
+<link rel="stylesheet" href="https://d3udgt0w45hpcz.cloudfront.net/skidoo_too.min.css" type="text/css" />
+<link rel="stylesheet" href="/static/stylesheet.css?v=20150607" type="text/css" />
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<!--<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+<!--<script src="/lib/js/hammer.js"></script>-->
+
+<!--<script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<script type="text/javascript">
+//////////////////////////////
+// Load jquery from our own directory if googleapis cannot be accessed
+//////////////////////////////
+if (typeof jQuery == 'undefined')
+{
+		document.write(unescape("%3Cscript src='/lib/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '687598281278757',
+			xfbml      : true,/*this is for auto-initiating social plugins*/
+			version    : 'v2.2'
+		});
+	};
+
+
+	(function(d, s, id){
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement(s); js.id = id;
+		 js.src = "//connect.facebook.net/en_US/sdk.js";
+		 fjs.parentNode.insertBefore(js, fjs);
+	 }(document, 'script', 'facebook-jssdk'));
+
+</script>
+
+<script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css"/>
+
+<script type="text/javascript">
+
+window.AudioContext = window.AudioContext||window.webkitAudioContext;
+var context = new AudioContext();
+var static_http = 'https://d3udgt0w45hpcz.cloudfront.net/';
+var app_id = '';
+var app_context = '';
+var is_mobile_device = false;
+var is_new_recruit = false;
+var is_new_player = false;
+</script>
+<script type="text/javascript" src="/static/common.js?v=20180308"></script>
+	<script type="text/javascript" src="/static/lightbox.js"></script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-6013438-1']);
+	_gaq.push(['_trackPageview']);
+			_gaq.push(['_setCustomVar', 1, 'Member Type', 'Premium', 1]);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';    
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') +
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+</script>
+</head>
+
+<body >
+
+
+		<link href='https://fonts.googleapis.com/css?family=Stardos+Stencil:400,700' rel='stylesheet' type='text/css'>
+
+		<style>
+		.cc_loader *, cc_loader *:before, cc_loader *:after { /* Padding happens inside box model, eg: doesn't add to height and width; */
+			-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0;
+		 }
+		.cc_loader {
+			font-family: 'Stardos Stencil', cursive;
+			font-size: 100%; /* Sets base font size. 1em = 16px */
+			background: #000;
+			margin: 0; /*To get rid of default margins. */
+
+			background: url(https://d3udgt0w45hpcz.cloudfront.net/loader/back.jpg) center no-repeat;
+			background-size: cover;;
+			width: 100%;
+			height: 100%;
+			visibility: hidden;
+			opacity:0;
+			position:absolute;
+			z-index:9999999;
+		}
+		.cc_loader_reveal {
+			visibility:visible !important;
+				opacity:1;
+				-webkit-transition: all .1s linear; -moz-transition: all .1s linear;-o-transition: all .1s linear;transition: all .1s linear;
+		}
+
+		.cc_loader img {
+			width: 100%;
+		}
+		.cc_loader .button {
+			width: 300px;
+			height: 100px;
+			color: #FFF;
+			background: red;
+			display: block;
+			text-align: center;
+			padding-top: 2.175em;
+			position: absolute;
+			top:50%;
+				left:50%;
+				margin:-50px 0 0 -150px;
+				border-radius: 20px 20px 20px 20px;
+				-webkit-transition: all .1s linear; -moz-transition: all .1s linear;-o-transition: all .1s linear;transition: all .1s linear;
+				text-decoration: none;
+				text-transform: uppercase;
+		}
+		.cc_loader .button:hover {
+			color: #000;
+			margin:-48px 0 0 -150px;
+			-webkit-box-shadow: inset 0px 0px 49px 5px rgba(0,0,0,0.75);
+			-moz-box-shadow: inset 0px 0px 49px 5px rgba(0,0,0,0.75);
+			box-shadow: inset 0px 0px 49px 5px rgba(0,0,0,0.75);
+		}
+		.cc_loader .cc_loader_wrap {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top:50%;
+				left:50%;
+				margin:-100px 0 0 -100px;
+		}
+		.cc_loader h1 {
+			font-weight: 700;
+			text-align: center;
+			color: #FFF;
+			font-size: 2.5em;
+			text-transform: uppercase;
+			top: 5%;
+			position: absolute;
+			right: 0;
+			left: 0;
+			margin: 0 auto;
+			text-shadow: 6px 4px 0px rgba(0, 0, 0, 1);
+			line-height: 1em;
+		}
+		.cc_loader p {
+			font-weight: 400;
+			text-align: center;
+			color: #FFF;
+			top: 78%;
+			position: absolute;
+			right: 0;
+			left: 0;
+			margin: 0 auto;
+			font-size: 1em;
+			width: 90%;
+		}
+		@media only screen and (min-width: 768px) {
+			.cc_loader .cc_loader_wrap {
+				width: 300px;
+				height: 300px;
+					margin:-150px 0 0 -150px;
+			}
+			.cc_loader .button {
+				width: 300px;
+				height: 100px;
+			}
+			.cc_loader h1 {
+				font-size: 4.5em;
+				top: 10%;
+			}
+			.cc_loader p {
+				top: 80%;
+				font-size: 2em;
+				width: 90%;
+				max-width: 950px;
+			}
+
+		}
+		</style>
+
+			<div class='cc_loader'>
+
+				<h1 id=cc_loader_header>Loading...</h1>
+
+				<div class='cc_loader_wrap'>
+					<img src='https://d3udgt0w45hpcz.cloudfront.net/loader/loader3.gif'>
+				</div>
+
+				<p  id=cc_loader_message>Da Club Is In Da House</p>
+
+			</div>
+
+			<script>
+				function cc_loader(header,messages,changeperiod){
+					window.scrollTo(0,0);
+					$('.cc_loader').addClass('cc_loader_reveal');
+ 					if (header) $('#cc_loader_header').html(header);
+					if (messages) {
+
+						if( typeof messages != 'string' || messages=='game'){
+							cc_loader_randommessage(messages,changeperiod);
+							return;
+						}
+						else $('#cc_loader_message').html(messages);
+					}
+				}
+
+				function cc_loader_randommessage(messages,changeperiod){
+				//console.log(messages,changeperiod);
+					if( typeof messages == 'string' ) {
+						messages = cc_loader_getmessages(messages);
+					}
+					if( !messages) return;
+					if( !changeperiod) return;
+
+					r = Math.floor(Math.random() * messages.length);
+					message = messages[r];
+					$('#cc_loader_message').html(message);
+					messagesarray = messages.join('","');
+					setTimeout('cc_loader_randommessage(["'+messagesarray+'"],'+changeperiod+')',changeperiod);
+
+				}
+
+				function cc_loader_getmessages(type){
+					var messages;
+					if (type=='game'){
+					messages = ['Adjust Your Pants, we are Gamewards Bound','All for the love of murderous empire building','Gameplay Supports Excessive Analysis','Sk00g is our featured player!','May The Conquer Gods Rain Glory Upon Your Soul','Welcome to the Strategy Gaming Wonderland','High Definition Strategy Gaming Nirvana','Conquer Club Is The Thinking Human\'s Game Club','For those that like to think before crushing mercilessly','Bring On The Game','This Is Your Club, This Is Your Game','Sk00g joins the fight to become Conqueror','Think Before You Destroy','For Those Who Like Their Clubs Awesome','One Club, Thousands Of Warriors, One Conqueror','One day they all will chant the name... Sk00g','It\'s not about the fancy graphics, It\'s about the fancy gameplay','Unlimited Options Await','Gameplay Supports Massive Risk','Gameplay Supports Cunning Strategy','Gameplay Supports Treacherous Diplomacy'];
+					}
+					return messages;
+				}
+			</script>
+			<div id="pageWrapper">
+		<div id="mainheader" >
+        <div id="mainNavAndLogo" >
+				  <div id=CC_mainlogo><A href='/public.php?mode=home'><img src="https://d3udgt0w45hpcz.cloudfront.net/cc_logo.png" alt="Conquer Club" /></a></div>
+			<div id=mainNav>
+				<li><a href="/public.php?mode=instructions1">THE GAME</a></li>
+						  <li><a href="/public.php?mode=mapslideshow">MAPS</a></li>
+				<li><a href="/public.php?mode=scoreboard2">SCOREBOARD</a></li>
+				<li><a href="/public.php?mode=tournaments1">TOURNAMENTS</a></li>
+				<li><a href="/public.php?mode=showclans1">CLANS</a></li>
+              <li><a href="public.php?mode=community">COMMUNITY</a></li>
+			</div>
+        </div>
+
+			<div id="rightNav">
+            <li><a href="/forum/index.php">FORUM</a></li><br/>
+				<li><a target="_blank" href="http://support.conquerclub.com/">HELP</a></li><br/>
+						<li><a href="/public.php?mode=rules">RULES</a></li><br/>
+			</div>
+
+		</div>
+			<div id="mainheader_mobile" >
+				<div  id=CC_mainlogo_mobile><A href='/public.php?mode=home'><img src="https://d3udgt0w45hpcz.cloudfront.net/icon.png" alt="Conquer Club" /></a></div>
+
+				<div id=mainNav_mobile>
+						<span><a href="/public.php?mode=instructions1">GAME</a></span>
+						<span><a href="/public.php?mode=scoreboard2">SCORE</a></span>
+						<span><a href="/public.php?mode=tournaments1">TOURNEY</a></span>
+						<span><a href="/public.php?mode=showclans1">CLAN</a></span>
+						<span><a href="public.php?mode=community">CLUB</a></span>
+				</div>
+
+			</div>
+
+<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<div id="SOWrap">
+						<div id="middleColumn">
+							<div class="inside">
+<!--- middle (main content) column begin -->
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 style="margin-right:100px;">Central Command</h2>
+
+<h4 style="margin-right:100px;padding-top:0px;margin-top:0px;margin-bottom:0px;">Events</h4>
+<div style='padding-bottom:2px;'><A href='javascript:void 0;' onClick='javascript:showeventpromo(106);'><img id='eventpromo_image_106'   style='margin-right:3px;border:thin solid black;' src='/static/events/challenge_nov/monthlychallengeicon-november.jpg'></a><A href='javascript:void 0;' onClick='javascript:showeventpromo(105);'><img id='eventpromo_image_105'   style='margin-right:3px;border:thin solid black;' src='/static/events/challenge_oct/monthlychallengeicon-october.jpg'></a><A href='javascript:void 0;' onClick='javascript:showeventpromo(101);'><img id='eventpromo_image_101'   style='margin-right:3px;border:thin solid black;' src='/static/events/mapmasters/avatar.png'></a><A href='javascript:void 0;' onClick='javascript:showeventpromo(103);'><img id='eventpromo_image_103'   style='margin-right:3px;border:thin solid black;' src='/static/events/championships/avatar.png'></a></div><div id='eventpromo_wrapper_101' style='display:none;'><div class='eventpromo_101' ><div style='padding-left:110px;padding-right:110px;'><b>MAP MASTERS</b> <a href='/public.php?mode=event&event_id=101'>Scoreboard</a> <a href='/forum/viewtopic.php?t=231082'>Info</a><br><br>Casual Tournaments: <a href='/player.php?mode=autotournament&tournament_id=8159'>CC Map Masters - Discworld</a>,  <a href='/player.php?mode=autotournament&tournament_id=8169'>CC Map Masters - Indochina</a>,  <a href='/player.php?mode=autotournament&tournament_id=8176'>CC Map Masters - Germany</a><style>
+			div.eventpromo_101 {
+border: 1px solid #C3C3C3;
+color: #000000;
+margin: 0pt 0pt 1em;
+			padding: 6px;
+			margin-bottom:0px;
+font-size:13px;
+text-align:center;
+background: #FCFCD2 none repeat scroll 0%;
+			background-position:left top;
+			background-image:url("/static/events/mapmasters/scoreboard.png");
+			width:800px;
+}
+			#featuredgames::-webkit-scrollbar{
+				height:10px;
+				background-color:#CCCCCC;
+				}
+				#featuredgames::-webkit-scrollbar-thumb{
+				background-color:#B03C3F;
+				border-radius:10px;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:hover{
+				background-color:#BF4649;
+				border:1px solid #333333;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:active{
+				background-color:#A6393D;
+				border:1px solid #333333;
+				}
+div.eventpromo a{
+color:#476B6B;
+}
+			div.eventpromo td{
+			vertical-align:middle;
+			}
+</style>
+</div></div></div><div id='eventpromo_wrapper_103' style='display:none;'><div class='eventpromo_103' ><div style='padding-left:110px;padding-right:110px;'><b>THE CHAMPIONSHIPS</b> <a href='/public.php?mode=event&event_id=103'>Scoreboard</a> <a href='/forum/viewtopic.php?t=228651'>Info</a><br><br>Casual Tournaments: <a href='/player.php?mode=autotournament&tournament_id=7845'>The Championships 2019 - Conquest</a> (0 spots left)<style>
+			div.eventpromo_103 {
+border: 1px solid #C3C3C3;
+color: #000000;
+margin: 0pt 0pt 1em;
+			padding: 6px;
+			margin-bottom:0px;
+font-size:13px;
+text-align:center;
+background: #FCFCD2 none repeat scroll 0%;
+			background-position:left top;
+			background-image:url("");
+			width:800px;
+}
+			#featuredgames::-webkit-scrollbar{
+				height:10px;
+				background-color:#CCCCCC;
+				}
+				#featuredgames::-webkit-scrollbar-thumb{
+				background-color:#B03C3F;
+				border-radius:10px;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:hover{
+				background-color:#BF4649;
+				border:1px solid #333333;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:active{
+				background-color:#A6393D;
+				border:1px solid #333333;
+				}
+div.eventpromo a{
+color:#476B6B;
+}
+			div.eventpromo td{
+			vertical-align:middle;
+			}
+</style>
+</div></div></div><div id='eventpromo_wrapper_105' style='display:none;'><div class='eventpromo_105' ><div style='padding-left:110px;padding-right:110px;'><b>OCTOBER CHALLENGE: CHRISTOPHER COLUMBUS</b> <a href='/public.php?mode=event&event_id=105'>Scoreboard</a> <a href='/forum/viewtopic.php?t=231426'>Info</a><style>
+			div.eventpromo_105 {
+border: 1px solid #C3C3C3;
+color: #000000;
+margin: 0pt 0pt 1em;
+			padding: 6px;
+			margin-bottom:0px;
+font-size:13px;
+text-align:center;
+background: #FCFCD2 none repeat scroll 0%;
+			background-position:left top;
+			background-image:url("/static/events/challenge_oct/template_backgound_events_oct.png");
+			width:800px;
+}
+			#featuredgames::-webkit-scrollbar{
+				height:10px;
+				background-color:#CCCCCC;
+				}
+				#featuredgames::-webkit-scrollbar-thumb{
+				background-color:#B03C3F;
+				border-radius:10px;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:hover{
+				background-color:#BF4649;
+				border:1px solid #333333;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:active{
+				background-color:#A6393D;
+				border:1px solid #333333;
+				}
+div.eventpromo a{
+color:#476B6B;
+}
+			div.eventpromo td{
+			vertical-align:middle;
+			}
+</style>
+</div></div></div><div id='eventpromo_wrapper_106' style='display:none;'><div class='eventpromo_106' ><div style='padding-left:110px;padding-right:110px;'><b>NOVEMBER CHALLENGE: TEAR DOWN THE WALL</b> <a href='/public.php?mode=event&event_id=106'>Scoreboard</a> <a href='/forum/viewtopic.php?t=231725'>Info</a><style>
+			div.eventpromo_106 {
+border: 1px solid #C3C3C3;
+color: #000000;
+margin: 0pt 0pt 1em;
+			padding: 6px;
+			margin-bottom:0px;
+font-size:13px;
+text-align:center;
+background: #FCFCD2 none repeat scroll 0%;
+			background-position:left top;
+			background-image:url("/static/events/challenge_nov/template_backgound_events_nov.png");
+			width:800px;
+}
+			#featuredgames::-webkit-scrollbar{
+				height:10px;
+				background-color:#CCCCCC;
+				}
+				#featuredgames::-webkit-scrollbar-thumb{
+				background-color:#B03C3F;
+				border-radius:10px;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:hover{
+				background-color:#BF4649;
+				border:1px solid #333333;
+				}
+				#featuredgames::-webkit-scrollbar-thumb:active{
+				background-color:#A6393D;
+				border:1px solid #333333;
+				}
+div.eventpromo a{
+color:#476B6B;
+}
+			div.eventpromo td{
+			vertical-align:middle;
+			}
+</style>
+</div></div></div><script>function showeventpromo(id){
+document.getElementById('eventpromo_wrapper_101').style.display='none';
+document.getElementById('eventpromo_image_101').style.border='thin solid black';
+document.getElementById('eventpromo_wrapper_103').style.display='none';
+document.getElementById('eventpromo_image_103').style.border='thin solid black';
+document.getElementById('eventpromo_wrapper_105').style.display='none';
+document.getElementById('eventpromo_image_105').style.border='thin solid black';
+document.getElementById('eventpromo_wrapper_106').style.display='none';
+document.getElementById('eventpromo_image_106').style.border='thin solid black';
+document.getElementById('eventpromo_wrapper_'+id).style.display='';
+document.getElementById('eventpromo_image_'+id).style.border='thin solid red';
+}
+</script><div style='position:absolute;right:0px;top:0px;width:330px;'><div class="fb-facepile" data-app-id="687598281278757" data-width="230" data-height="10" data-max-rows="1" data-colorscheme="light" data-size="small" data-show-count="true"></div>
+<div id=FB_invite style='position:absolute;right:5px;top:2px;font-size:11px;font-family:Helvetica Neue,Helvetica,Arial;'><img style='position:relative;top:3px;padding-right:2px;' src='/static/social/footer-facebookicon.png' height=12><a onClick='javascript:FB_invite();'>Invite Friends</a></div>
+<div style='display:none;' id=invite_return></div>
+</div>
+
+
+
+<h4 style="margin-right:100px;margin-top:0px;margin-bottom:0px;">Games</h4>
+<div id="headerline">&nbsp;</div>
+<div id="invertedtabs">
+<ul>
+<li id="current"><a href="player.php?mode=mygames1"><span>Games</span></a></li>
+<li ><a href="/player.php?mode=gameengine"><span>Other Games [ <span class='inbox'>0</span> ]</span></a></li>
+<li ><a href="player.php?mode=mygames6"><span>Tournaments [ <span class='inbox'>0</span> ]</span></a></li>
+<li ><a href="player.php?mode=mygames8"><span>Campaigns [ <span class='inbox'>0</span> ]</span></a></li>
+<li ><a href="player.php?mode=clanactivity"><span>Clan</span></a></li>
+<li ><a href="player.php?mode=tribeactivity"><span>Tribe</span></a></li>
+<li ><a href="player.php?mode=mygames5"><span>Invites [ <span class='inbox'>0</span> ]</span></a></li>
+<li ><a href="player.php?mode=mygames7"><span>Requests [ <span class='inbox'>0</span> ]</span></a></li>
+</ul>
+</div>
+<div id="headerline">&nbsp;</div>
+<div id="invertedtabs">
+<ul>
+<li id="current"><a href="player.php?mode=mygames1"><span>Active [ <span class='inbox'>7</span> ]</span></a></li>
+<li ><a href="player.php?mode=mygames2"><span>Waiting [ <span class='inbox'>3</span> ]</span></a></li>
+<li ><a href="player.php?mode=mygames3"><span>Eliminated [ <span class='inbox'>0</span> ]</span></a></li>
+<li ><a href="player.php?mode=mygames4"><span>Finished [ <span class='inbox'>2</span> ]</span></a></li>
+<li ><a href="player.php?mode=watched"><span>Watched [ <span class='inbox'>0</span> ]</span></a></li>
+</ul>
+</div>
+<script>
+function toggleDisplay(item)
+{
+  var elm = document.getElementById("item_" + item);
+  if (elm){ elm.style.display = ( elm.style.display != "none")?"none":""; }
+}
+</script>
+
+<div style='display:block;clear: both;'>
+<script type='text/javascript' src='/lib/jquery.nicescroll.340/jquery.nicescroll.js'></script><style>.nicescroll-rails div {-webkit-transition: all 0s linear; -moz-transition: all 0s linear;-o-transition: all 0s linear;transition: all 0s linear;}</style>
+		<style>
+			.game_summary{
+				margin-right:5px;
+				margin-top:5px;
+				display:inline-block;
+				width:16%;
+			}
+			@media only screen and (max-width : 2200px){
+				.game_summary{width:19%;}
+			}
+			@media only screen and (max-width : 1900px){
+				.game_summary{width:24.5%;}
+			}
+			@media only screen and (max-width : 1550px){
+				.game_summary{width:32%;}
+			}
+			@media only screen and (max-width : 1200px){
+				.game_summary{width:47%;}
+			}
+			@media only screen and (max-width : 850px){
+				.game_summary{width:98%;}
+			}
+			.gameoptions {
+					list-style-type: none;
+					padding: 0px;
+					margin: 0px;
+			}
+
+			.gameoptions li {
+					background-image: url(/static/icons/triangle.png);
+					background-size: 10px 10px;
+					background-repeat: no-repeat;
+					background-position: 0px 3px;
+					padding-left: 14px;
+			}
+		</style>
+
+		<div style='display:block;'><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='background-color:#898;height:44px;'><table width=100% border=0 ><tr><td width=1 valign=middle><div style='border:2px solid white;'><a target=_blank href='https://s3.amazonaws.com/ccmaps/Macedonia.S.jpg' rel='lightbox' title='Macedonia,103703'><img title='Game 19448441, ' border=0  height=30 src='https://s3.amazonaws.com/ccmaps/Macedonia.thumb.png'></a></div></td><td style='vertical-align:middle;'><table><tr><td><img height=25 src='https://d3udgt0w45hpcz.cloudfront.net/icons/clock_icon.png'></td><td style='vertical-align:middle;font-weight:bold;'>Round 8 <span style='color:white;'><i>23:12:00</i></span></td></tr></table></td><td style='vertical-align:middle;padding-right:5px;' align=right><span class=curved style='font-size:18px;padding:7px;background-color:#ee2124;'><a style='color:white;' href='game.php?game=19448441'>Enter</a></span></td></tr></table></td></tr><tr><td style='background-color:#CCC;webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;'><table width=100% cellpadding=5><tr><td  align=left width=140 valign=top><div style='height:173px;overflow-x:hidden;overflow-y:hidden;padding-bottom:0px;'>#19448441<br><ul class=gameoptions><li>Macedonia</li><li><span title='Players'>4 Players</span></li><li><span title='Game Type'>Standard</span></li><li><span title='Spoils'>Flat Rate</span></li><li><span title='Play Order'>Sequential</span></li><li><span title='Reinforcements'>Chained</span></li><li><span title='Fog of War'>Fog</span></li></ul></div></td><td align=left valign=top><div id='game_players_19448441' style='height:173px;overflow-x:hidden;overflow-y:auto;padding-bottom:0px;'><ul class=players style='font-size:12px;padding-right:8px;'><li class='status_red'><span class='eliminated'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r1' alt='Cook' title='Cook' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=613160'>Stratocaster88</A></span></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839140'>Jkase</A></span></span></li><li class='status_green'><b><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839136'>Sk00g</A></span></span></b></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r1' alt='Cook' title='Cook' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=614156'>Wrath Of Anor</A></span></span></li></ul></div></td>
+		<script>
+			$(document).ready(
+				function() {
+					nicescroll_19448441 = $('#game_players_19448441').niceScroll({cursorcolor:'#333',cursoropacitymin:.6});
+
+				}
+			);
+			</script>
+		</tr></table></td></tr></table></div></span><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='background-color:#898;height:44px;'><table width=100% border=0 ><tr><td width=1 valign=middle><div style='border:2px solid white;'><a target=_blank href='https://s3.amazonaws.com/ccmaps/New_World.S.jpg' rel='lightbox' title='New World,38601'><img title='Game 19426808, ' border=0  height=30 src='https://s3.amazonaws.com/ccmaps/New_World.thumb.png'></a></div></td><td style='vertical-align:middle;'><table><tr><td><img height=25 src='https://d3udgt0w45hpcz.cloudfront.net/icons/clock_icon.png'></td><td style='vertical-align:middle;font-weight:bold;'>Round 3 <span style='color:white;'><i>18:22:47</i></span></td></tr></table></td><td style='vertical-align:middle;padding-right:5px;' align=right><span class=curved style='font-size:18px;padding:7px;background-color:#666666;'><a style='color:white;' href='game.php?game=19426808'>Enter</a></span></td></tr></table></td></tr><tr><td style='background-color:#CCC;webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;'><table width=100% cellpadding=5><tr><td  align=left width=140 valign=top><div style='height:173px;overflow-x:hidden;overflow-y:hidden;padding-bottom:0px;'>#19426808<br><ul class=gameoptions><li>New World</li><li><span title='Players'>9 Players</span></li><li><span title='Game Type'>Standard</span></li><li><span title='Spoils'>Escalating</span></li><li><span title='Play Order'>Sequential</span></li><li><span title='Reinforcements'>Chained</span></li></ul></div></td><td align=left valign=top><div id='game_players_19426808' style='height:173px;overflow-x:hidden;overflow-y:auto;padding-bottom:0px;'><ul class=players style='font-size:12px;padding-right:8px;'><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r1' alt='Cook' title='Cook' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=613160'>Stratocaster88</A></span></span></li><li class='status_red'><span class='eliminated'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839123'>stuntsack</A></span></span></span></li><li class='status_green'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839128'>colonizer!</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r8' alt='Sergeant 1st Class' title='Sergeant 1st Class' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=237683'>fisho</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839126'>Miles Weyland</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839135'>Noah347</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839122'>Noahsmellsgreat</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839136'>Sk00g</A></span></span></li><li class='status_red'><span class='eliminated'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839137'>The Reckoning </A></span></span></span></li></ul></div></td>
+		<script>
+			$(document).ready(
+				function() {
+					nicescroll_19426808 = $('#game_players_19426808').niceScroll({cursorcolor:'#333',cursoropacitymin:.6});
+nicescroll_19426808.doScrollTop(36, 111);
+
+				}
+			);
+			</script>
+		</tr></table></td></tr></table></div></span><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='background-color:#898;height:44px;'><table width=100% border=0 ><tr><td width=1 valign=middle><div style='border:2px solid white;'><a target=_blank href='https://s3.amazonaws.com/ccmaps/Clandemonium2.S.jpg' rel='lightbox' title='Clandemonium,105692'><img title='Game 19450108, ' border=0  height=30 src='https://s3.amazonaws.com/ccmaps/Clandemonium.thumb.png'></a></div></td><td style='vertical-align:middle;'><table><tr><td><img height=25 src='https://d3udgt0w45hpcz.cloudfront.net/icons/clock_icon.png'></td><td style='vertical-align:middle;font-weight:bold;'>Round 5 <span style='color:white;'><i>19:36:50</i></span></td></tr></table></td><td style='vertical-align:middle;padding-right:5px;' align=right><span class=curved style='font-size:18px;padding:7px;background-color:#666666;'><a style='color:white;' href='game.php?game=19450108'>Enter</a></span></td></tr></table></td></tr><tr><td style='background-color:#CCC;webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;'><table width=100% cellpadding=5><tr><td  align=left width=140 valign=top><div style='height:173px;overflow-x:hidden;overflow-y:hidden;padding-bottom:0px;'>#19450108<br><ul class=gameoptions><li>Clandemonium</li><li><span title='Players'>4 Players</span></li><li><span title='Game Type'>Doubles</span></li><li><span title='Spoils'>Flat Rate</span></li><li><span title='Play Order'>Sequential</span></li><li><span title='Reinforcements'>Chained</span></li><li><span title='Fog of War'>Fog</span></li></ul></div></td><td align=left valign=top><div id='game_players_19450108' style='height:173px;overflow-x:hidden;overflow-y:auto;padding-bottom:0px;'><ul class=players style='font-size:12px;padding-right:8px;'><li class='status_green'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r1' alt='Cook' title='Cook' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=613160'>Stratocaster88</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r1' alt='Cook' title='Cook' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=614156'>Wrath Of Anor</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839136'>Sk00g</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r9' alt='Lieutenant' title='Lieutenant' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=243534'>knight81</A></span></span></li></ul></div></td>
+		<script>
+			$(document).ready(
+				function() {
+					nicescroll_19450108 = $('#game_players_19450108').niceScroll({cursorcolor:'#333',cursoropacitymin:.6});
+
+				}
+			);
+			</script>
+		</tr></table></td></tr></table></div></span><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='background-color:#898;height:44px;'><table width=100% border=0 ><tr><td width=1 valign=middle><div style='border:2px solid white;'><a target=_blank href='https://s3.amazonaws.com/ccmaps/Thailand2.S.jpg' rel='lightbox' title='Thailand,100058'><img title='Game 19449701, ' border=0  height=30 src='https://s3.amazonaws.com/ccmaps/Thailand.thumb.png'></a></div></td><td style='vertical-align:middle;'><table><tr><td><img height=25 src='https://d3udgt0w45hpcz.cloudfront.net/icons/clock_icon.png'></td><td style='vertical-align:middle;font-weight:bold;'>Round 1 <span style='color:white;'><i>22:22:34</i></span></td></tr></table></td><td style='vertical-align:middle;padding-right:5px;' align=right><span class=curved style='font-size:18px;padding:7px;background-color:#666666;'><a style='color:white;' href='game.php?game=19449701'>Enter</a></span></td></tr></table></td></tr><tr><td style='background-color:#CCC;webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;'><table width=100% cellpadding=5><tr><td  align=left width=140 valign=top><div style='height:173px;overflow-x:hidden;overflow-y:hidden;padding-bottom:0px;'>#19449701<br><ul class=gameoptions><li>Thailand</li><li><span title='Players'>4 Players</span></li><li><span title='Game Type'>Standard</span></li><li><span title='Spoils'>Flat Rate</span></li><li><span title='Play Order'>Sequential</span></li><li><span title='Reinforcements'>Unlimited</span></li></ul></div></td><td align=left valign=top><div id='game_players_19449701' style='height:173px;overflow-x:hidden;overflow-y:auto;padding-bottom:0px;'><ul class=players style='font-size:12px;padding-right:8px;'><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r9' alt='Lieutenant' title='Lieutenant' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=430854'>skids32</A></span></span></li><li class='status_green'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r7' alt='Sergeant' title='Sergeant' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=764023'>apogoplay8</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839136'>Sk00g</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r4' alt='Private 1st Class' title='Private 1st Class' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=829760'>benyehuda</A></span></span></li></ul></div></td>
+		<script>
+			$(document).ready(
+				function() {
+					nicescroll_19449701 = $('#game_players_19449701').niceScroll({cursorcolor:'#333',cursoropacitymin:.6});
+
+				}
+			);
+			</script>
+		</tr></table></td></tr></table></div></span><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='background-color:#898;height:44px;'><table width=100% border=0 ><tr><td width=1 valign=middle><div style='border:2px solid white;'><a target=_blank href='https://s3.amazonaws.com/ccmaps/Alexanders_Empire.S.jpg' rel='lightbox' title='Alexander's Empire,1789'><img title='Game 19416446, ' border=0  height=30 src='https://s3.amazonaws.com/ccmaps/Alexanders_Empire.thumb.png'></a></div></td><td style='vertical-align:middle;'><table><tr><td><img height=25 src='https://d3udgt0w45hpcz.cloudfront.net/icons/clock_icon.png'></td><td style='vertical-align:middle;font-weight:bold;'>Round 1 <span style='color:white;'><i>22:38:09</i></span></td></tr></table></td><td style='vertical-align:middle;padding-right:5px;' align=right><span class=curved style='font-size:18px;padding:7px;background-color:#666666;'><a style='color:white;' href='game.php?game=19416446'>Enter</a></span></td></tr></table></td></tr><tr><td style='background-color:#CCC;webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;'><table width=100% cellpadding=5><tr><td  align=left width=140 valign=top><div style='height:173px;overflow-x:hidden;overflow-y:hidden;padding-bottom:0px;'>#19416446<br><ul class=gameoptions><li>Alexander's Empire</li><li><span title='Players'>4 Players</span></li><li><span title='Game Type'>Standard</span></li><li><span title='Spoils'>Flat Rate</span></li><li><span title='Play Order'>Sequential</span></li><li><span title='Reinforcements'>Parachute</span></li><li><span title='Fog of War'>Fog</span></li><li><span title='Round Limit'>30 Rounds</span></li></ul></div></td><td align=left valign=top><div id='game_players_19416446' style='height:173px;overflow-x:hidden;overflow-y:auto;padding-bottom:0px;'><ul class=players style='font-size:12px;padding-right:8px;'><li class='status_green'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r8' alt='Sergeant 1st Class' title='Sergeant 1st Class' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=42857'>Wooddruff</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r5' alt='Corporal' title='Corporal' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=687996'>Toizzzzz</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r10' alt='Captain' title='Captain' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=294015'>redlion</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839136'>Sk00g</A></span></span></li></ul></div></td>
+		<script>
+			$(document).ready(
+				function() {
+					nicescroll_19416446 = $('#game_players_19416446').niceScroll({cursorcolor:'#333',cursoropacitymin:.6});
+
+				}
+			);
+			</script>
+		</tr></table></td></tr></table></div></span><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='background-color:#898;height:44px;'><table width=100% border=0 ><tr><td width=1 valign=middle><div style='border:2px solid white;'><a target=_blank href='https://s3.amazonaws.com/ccmaps/First_Nations_Americas2.S.jpg' rel='lightbox' title='First Nations Americas,136536'><img title='Game 19427061, ' border=0  height=30 src='https://s3.amazonaws.com/ccmaps/First_Nations_Americas.thumb.png'></a></div></td><td style='vertical-align:middle;'><table><tr><td><img height=25 src='https://d3udgt0w45hpcz.cloudfront.net/icons/clock_icon.png'></td><td style='vertical-align:middle;font-weight:bold;'>Round 7 <span style='color:white;'><i>22:46:07</i></span></td></tr></table></td><td style='vertical-align:middle;padding-right:5px;' align=right><span class=curved style='font-size:18px;padding:7px;background-color:#666666;'><a style='color:white;' href='game.php?game=19427061'>Enter</a></span></td></tr></table></td></tr><tr><td style='background-color:#CCC;webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;'><table width=100% cellpadding=5><tr><td  align=left width=140 valign=top><div style='height:173px;overflow-x:hidden;overflow-y:hidden;padding-bottom:0px;'>#19427061<br><ul class=gameoptions><li>First Nations Americas</li><li><span title='Players'>9 Players</span></li><li><span title='Game Type'>Standard</span></li><li><span title='Spoils'>Escalating</span></li><li><span title='Play Order'>Sequential</span></li><li><span title='Reinforcements'>Chained</span></li></ul></div></td><td align=left valign=top><div id='game_players_19427061' style='height:173px;overflow-x:hidden;overflow-y:auto;padding-bottom:0px;'><ul class=players style='font-size:12px;padding-right:8px;'><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r1' alt='Cook' title='Cook' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=613160'>Stratocaster88</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839140'>Jkase</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839135'>Noah347</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839136'>Sk00g</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r1' alt='Cook' title='Cook' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=614156'>Wrath Of Anor</A></span></span></li><li class='status_green'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r8' alt='Sergeant 1st Class' title='Sergeant 1st Class' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=747254'>riderben55</A></span></span></li><li class='status_red'><span class='eliminated'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839128'>colonizer!</A></span></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839126'>Miles Weyland</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r8' alt='Sergeant 1st Class' title='Sergeant 1st Class' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=627540'>tommyqwerty</A></span></span></li></ul></div></td>
+		<script>
+			$(document).ready(
+				function() {
+					nicescroll_19427061 = $('#game_players_19427061').niceScroll({cursorcolor:'#333',cursoropacitymin:.6});
+nicescroll_19427061.doScrollTop(90, 111);
+
+				}
+			);
+			</script>
+		</tr></table></td></tr></table></div></span><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='background-color:#898;height:44px;'><table width=100% border=0 ><tr><td width=1 valign=middle><div style='border:2px solid white;'><a target=_blank href='https://s3.amazonaws.com/ccmaps/First_Nations_Americas2.S.jpg' rel='lightbox' title='First Nations Americas,136536'><img title='Game 19451165, ' border=0  height=30 src='https://s3.amazonaws.com/ccmaps/First_Nations_Americas.thumb.png'></a></div></td><td style='vertical-align:middle;'><table><tr><td><img height=25 src='https://d3udgt0w45hpcz.cloudfront.net/icons/clock_icon.png'></td><td style='vertical-align:middle;font-weight:bold;'>Round 1 <span style='color:white;'><i>22:50:15</i></span></td></tr></table></td><td style='vertical-align:middle;padding-right:5px;' align=right><span class=curved style='font-size:18px;padding:7px;background-color:#666666;'><a style='color:white;' href='game.php?game=19451165'>Enter</a></span></td></tr></table></td></tr><tr><td style='background-color:#CCC;webkit-border-radius: 0px 0px 6px 6px;border-radius: 0px 0px 6px 6px;'><table width=100% cellpadding=5><tr><td  align=left width=140 valign=top><div style='height:173px;overflow-x:hidden;overflow-y:hidden;padding-bottom:0px;'>#19451165<br><ul class=gameoptions><li>First Nations Americas</li><li><span title='Players'>4 Players</span></li><li><span title='Game Type'>Doubles</span></li><li><span title='Spoils'>Flat Rate</span></li><li><span title='Play Order'>Sequential</span></li><li><span title='Reinforcements'>Chained</span></li></ul></div></td><td align=left valign=top><div id='game_players_19451165' style='height:173px;overflow-x:hidden;overflow-y:auto;padding-bottom:0px;'><ul class=players style='font-size:12px;padding-right:8px;'><li class='status_green'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r5' alt='Corporal' title='Corporal' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=67150'>frontrow</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r8' alt='Sergeant 1st Class' title='Sergeant 1st Class' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=489124'>frank_tank</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank p r3' alt='Private' title='Private' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839136'>Sk00g</A></span></span></li><li class='status_red'><span style='white-space:nowrap;'><img src='//conquerclub.com/static/transparent.gif' width='18' height='18' class='icon rank f r0' alt='New Recruit' title='New Recruit' /><span style='padding-left:5px;'><A  target=_blank href='/forum/memberlist.php?mode=viewprofile&u=839122'>Noahsmellsgreat</A></span></span></li></ul></div></td>
+		<script>
+			$(document).ready(
+				function() {
+					nicescroll_19451165 = $('#game_players_19451165').niceScroll({cursorcolor:'#333',cursoropacitymin:.6});
+
+				}
+			);
+			</script>
+		</tr></table></td></tr></table></div></span><span class=game_summary ><div class=curved style='border:3px solid #898;height:254px;background-color:#898;'><table border=0 width=100% height=100% cellpadding=0 cellspacing=0  border=0 style='background-color:#898;'><tr><td style='text-align:center;font-weight:bold;vertical-align:middle;color:white;font-size:14px;'>Try the new game of Risk Meets Civilization</td></tr><tr><td style='text-align:center;vertical-align:middle;'><a href='/player.php?mode=gameengine&spec_code=ConquerWorld&params=page_code|World'><img height=214 src='https://triqqy.com/Games/ConquerWorld/images/marketing/ConquerWorld.jpg'></a></td></tr></table></div></span></div></div>			
+<!--- middle (main content) column end -->
+
+													</div>
+						</div>
+						<div id="leftColumn" >
+							<div id=leftColumninner class="inside">
+
+<!--- left column begin -->
+
+
+
+
+			<div class="vnav" id="leftnav">
+<div id="cctime" style="font-size:12px; font-weight:bold; color:black; display: inline-block; text-align:center;z-index:10;padding:0px;width:100%;">
+	<script type="text/javascript">
+		var currenttime = 'Nov 07 2019, 01:02:49'
+		var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+		var serverdate=new Date(currenttime)
+		function padlength(what){
+			var output=(what.toString().length==1)? "0"+what : what
+			return output
+		}
+		function displaytime(){
+			serverdate.setMilliseconds(serverdate.getMilliseconds()+1000)
+			//alert(serverdate);
+			var datestring=montharray[serverdate.getMonth()]+" "+padlength(serverdate.getDate())+", "
+			var timestring=padlength(serverdate.getHours())+":"+padlength(serverdate.getMinutes())+":"+padlength(serverdate.getSeconds())
+			document.getElementById("servertime").innerHTML=datestring+" "+timestring+" CCT"
+		}
+		function init_clock(){
+//			displaytime()
+			setInterval("displaytime()", 1000)
+		}
+		$(function() {
+			if ($(this).width() < 925) $("#cctime").hide();
+				$(window).resize(function() {
+				if ($(this).width() < 925) $("#cctime").hide();
+				else $("#cctime").show();
+				});
+		});
+		if (typeof addLoadEvent	== 'function'){
+			addLoadEvent(init_clock);
+		}
+		else{
+
+			$(window).load(function() {
+			init_clock();
+			});
+		}
+	</script>
+
+	<span  id="servertime"><div style='height:15px;'>Nov 07, 01:02:49 CCT</div></span>
+
+</div>
+
+		<p style='margin-bottom:0px;width:100%;display: inline-block; text-align:center;'>[<a href="logout.php">logout <b>Sk00g</b></a>]</p>
+
+		
+
+		<h3>Game Menu</h3>
+		<ul>
+			<li><a href="player.php?mode=mygames1">Central Command</a></li>
+			<li><a href="player.php?mode=join1">Join Games</a></li>
+			<li><a href="player.php?mode=start">Start Games</a></li>
+      <li><a href="player.php?mode=find2">Game Finder</a></li>
+			<!--<li><a href="public.php?mode=cup1">Conquer Cup</a></li>-->
+			<li><a href="player.php?mode=br">Battle Royale</a></li>
+      <li><a href="player.php?mode=gameengine">Other Games</a></li>
+      			<!--<li><a href="javascript:void 0;" id=menu_hider onClick='toggleHideMenu()'></a></li>-->
+
+		</ul>
+
+		<h3>Announcements</h3><ul style='opacity:.9;font-size:10px;'><li class= style='display:;'><a style='' title='Community: November\'s Challenge -- Tear Down the Wall!' href='https://www.conquerclub.com/forum/viewtopic.php?f=786&t=231725#p5126245'><span style='display:inline;' class='player2'>&bull;</span>November's Challenge -- Tear Down the Wall!</a></li><li class= style='display:;'><a style='' title='Events: Lots of spaces left in Conquest Map Championship' href='https://www.conquerclub.com/player.php?mode=autotournament&tournament_id=7845'><span style='display:inline;' class='player5'>&bull;</span>Lots of spaces left in Conquest Map Championship</a></li><li class= style='display:;'><a style='' title='Tournaments: US and UK both need replacement captains!' href='https://www.conquerclub.com/forum/viewtopic.php?f=91&t=225627&start=325#p5123497'><span style='display:inline;' class='player7'>&bull;</span>US and UK both need replacement captains!</a></li><li class= style='display:;'><a style='' title='Community: Official Monthly Challenge for October' href='https://www.conquerclub.com/forum/viewtopic.php?f=786&t=231039#p5113950'><span style='display:inline;' class='player2'>&bull;</span>Official Monthly Challenge for October</a></li><li class=announcements style='display:none;'><a style='' title='Tournaments: CC Map Masters - The Ultimate 1v1 Battle!' href='https://www.conquerclub.com/forum/viewtopic.php?f=1&t=231082'><span style='display:inline;' class='player7'>&bull;</span>CC Map Masters - The Ultimate 1v1 Battle!</a></li><li class=announcements style='display:none;'><a style='' title='Events: Official Monthly Challenge for August' href='https://www.conquerclub.com/forum/viewtopic.php?f=1&t=231039#p5113950'><span style='display:inline;' class='player5'>&bull;</span>Official Monthly Challenge for August</a></li><li class=announcements style='display:none;'><a style='' title='Clans: Clan Director Callout' href='https://www.conquerclub.com/forum/viewtopic.php?f=1&t=231034'><span style='display:inline;' class='player6'>&bull;</span>Clan Director Callout</a></li><li class=announcements style='display:none;'><a style='' title='Community: Whac-A-Mod 2019!' href='https://www.conquerclub.com/forum/viewtopic.php?f=1&t=230741#p5107774'><span style='display:inline;' class='player2'>&bull;</span>Whac-A-Mod 2019!</a></li><li class=announcements style='display:none;'><a style='' title='Team CC:  There\'s a new Sheriff in town!' href='https://www.conquerclub.com/forum/viewtopic.php?f=609&t=230726&p=5107517#p5107517'><span style='display:inline;' class='player8'>&bull;</span> There's a new Sheriff in town!</a></li><li class=announcements style='display:none;'><a style='' title='Webmaster: Deadbeats in Polymorphic Setting' href='https://www.conquerclub.com/forum/viewtopic.php?f=1&t=230525'><span style='display:inline;' class='player1'>&bull;</span>Deadbeats in Polymorphic Setting</a></li><li class=announcements style='display:none;'><a style='' title='Maps: Pi-School Release Event' href='https://www.conquerclub.com/forum/viewtopic.php?f=1&t=229880'><span style='display:inline;' class='player3'>&bull;</span>Pi-School Release Event</a></li><li class=announcements style='display:none;'><a style='' title='Webmaster: Upcoming Server Outage' href='https://www.conquerclub.com/forum/viewtopic.php?f=1&t=229864'><span style='display:inline;' class='player1'>&bull;</span>Upcoming Server Outage</a></li><li class=announcements style='display:none;'><a style='' title='Maps: Arctic War Scenario Launched' href='https://www.conquerclub.com/player.php?mode=scenario&scenario_id=143'><span style='display:inline;' class='player3'>&bull;</span>Arctic War Scenario Launched</a></li><li class=announcements style='display:none;'><a style='' title='Maps: Can you XML? Want to fix Krazy Kingdoms?' href='https://www.conquerclub.com/forum/viewtopic.php?f=64&t=177769&start=750#p5071757'><span style='display:inline;' class='player3'>&bull;</span>Can you XML? Want to fix Krazy Kingdoms?</a></li><li><a id=more href='javascript:void 0;' onClick='showannouncements();' href='javascript:void 0;'>More</a></li></ul>
+			<script>
+			function showannouncements(){
+
+				var more = ($('#more').html()=='More') ? 'Less' : 'More';
+				if (more == 'More'){
+					$('.announcements').css('display','none');
+				}
+				else $('.announcements').css('display','');
+				$('#more').html(more);
+			}
+			</script>
+		
+		<h3>Interaction Menu</h3>
+		<ul>
+			<li><a href="/forum">Forum</a></li>
+			<li><a href="player.php?mode=chat">Chat Rooms</a></li>
+			<li><a href="forum/ucp.php?i=pm&amp;folder=inbox">Inbox<span id="privmsg">&nbsp;&nbsp;[ <span class="inbox">2 new</span> ]</span></a></li>
+			<li><a href="forum/memberlist.php?mode=viewprofile&amp;u=839136#wall">Wall<span id="wall"></span></a></li>
+			<li><a href="player.php?mode=ratings1">My Ratings</a></li>
+		</ul>
+		<h3>Personal Menu</h3>
+		<ul>
+			<li><a href="https://www.conquerclub.com/player.php?mode=store">Store</a></li>
+			<li><a href="forum/ucp.php">Control Panel</a></li>
+			<li><a href="player.php?mode=settings">Settings</a></li>
+			<li><a href="player.php?mode=referral1">Referral Program</a></li>
+			<li><a href="player.php?mode=dice1">Dice Stats</a></li>
+			<li><a href="player.php?mode=achievements">Medal Stats</a></li>
+			<li><a href="player.php?mode=inventory">Inventory</a></li>
+		</ul>
+			</div>
+		
+
+<br><br><br><br>
+<!--- left column end -->
+
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div id="rightColumn">
+						<div class="inside">
+
+
+        <style>
+			#globalChat {
+				float:right;
+				padding-right: 2px;
+				position: relative;
+				right2: 0;
+				background:transparent;
+				color:FFFFFF;
+				margin: 0px;
+				min-height: 700px;
+				height: 100%;
+				z-index:99999;
+
+			}
+			#collapsechatdiv{
+				z-index:999999;
+				height: 100%;
+				position:absolute;
+				float:left;
+				width:12px;
+				min-height:50px;
+				z-index:99999;
+          background: url('https://d3udgt0w45hpcz.cloudfront.net/chat/bkg_chatbar_darkgreen.png');
+				background-repeat:repeat-y;
+        }
+        #outerColumnContainer{
+          border-right-color:#cccccc;
+        }
+
+        #rightColumn {
+          padding-top:0px;
+          z-index:9999;
+          background: #000000; /* Old browsers */
+          background: -moz-linear-gradient(left,  #000000 0%, #141c24 15%, #141c24 100%); /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(15%,#141c24), color-stop(100%,#141c24)); /* Chrome,Safari4+ */
+          background: -webkit-linear-gradient(left,  #000000 0%,#141c24 15%,#141c24 100%); /* Chrome10+,Safari5.1+ */
+          background: -o-linear-gradient(left,  #000000 0%,#141c24 15%,#141c24 100%); /* Opera 11.10+ */
+          background: -ms-linear-gradient(left,  #000000 0%,#141c24 15%,#141c24 100%); /* IE10+ */
+          background: linear-gradient(to right,  #000000 0%,#141c24 15%,#141c24 100%); /* W3C */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#141c24',GradientType=1 ); /* IE6-9 */
+			}
+        
+        </style>
+
+    
+      <div id=collapsechatdiv >
+        <a href='javascript:void 0;' onClick='togglechat();'><img src='https://d3udgt0w45hpcz.cloudfront.net/chat/sideheader_chat.png'></a>
+      </div>
+      <div id='globalChat'>
+        <style>
+			.playerprofile{
+				color:white;
+				background-color:black;
+				z-index:9999999;
+				overflow:visible;
+				border:1px solid #CCCCCC;
+				-webkit-border-radius: 4px;
+				border-radius: 4px;
+				position:absolute;
+				top:40px;
+				display:none;
+				min-width:180px;
+				min-height:160px;
+
+			}
+			div.playerprofile a{
+				color: white;
+			}
+			.playerprofile_inner{
+				position:absolute;
+				text-align:middle;
+
+			}
+				.chatHelp{
+					color:white;
+					background-color:black;
+					z-index:9999999;
+					overflow:visible;
+					border:1px solid #CCCCCC;
+					-webkit-border-radius: 4px;
+					border-radius: 4px;
+					position:absolute;
+					bottom:20px;
+					right:0px;
+					display:none;
+					min-width:160px;
+					min-height:100px;
+					text-align:left;
+
+				}
+			.chat{
+				font-size:12px;
+				overflow-x:hidden;
+				width:188px;
+
+			}
+			.chat a{
+				color: #CCCCCC;
+			}
+			#globalChatHeader{
+				padding-bottom:5px;
+			}
+			#globalChatMessages{
+			height:400px;
+			border:1px solid #CCCCCC;
+			margin:0px;
+			padding:5px;
+			color:white;
+			overflow-y:auto;
+			overflow-x:hidden;
+			background-color:black;
+			width:188px;
+			opacity2:.25;
+			}
+			#globalChatMessage{
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+				width:100%;
+				display:block;
+				width:100%;
+				padding:0;
+				border-width:0;
+				margin:0;
+				margin-top:2px;
+				height:20px;
+			}
+			#globalChatSubmit{
+			-webkit-border-radius: 2px;
+			border-radius: 2px;
+			padding:3px;
+			font-family:arial;
+			font-weight:bold;
+			background-color:#899988;
+			color:white;
+			margin-top:2px;
+			cursor: pointer;
+			cursor: hand;
+			}
+			#globalChatSubmit:hover{
+			color:#141c24;
+			}
+			#globalChatNav{
+				position2:absolute;
+				bottom:5px;
+				width2:100%;
+				text-align:center;
+				padding-top:50px;
+			}
+			#globalChatNav a{
+				color:white;
+			}
+
+			#globalChatMute{
+				font-weight:bold;
+				padding:3px;
+				color:white;
+				border:1px solid #CCCCCC;
+				min-height:50px;
+				max-height:80px;
+				overflow-y:auto;
+				overflow-x:hidden;
+				background-color:black;
+				width:191px;
+			}
+			#globalChatMute a{
+			color:white;
+			}
+
+			#globalChatBlock{
+				margin-top:10px;
+				font-weight:bold;
+				padding:3px;
+				color:white;
+				border:1px solid #CCCCCC;
+				min-height:50px;
+				max-height:80px;
+				overflow-y:auto;
+				overflow-x:hidden;
+				background-color:black;
+				width:191px;
+			}
+			#globalChatBlock a{
+			color:white;
+			}
+			#globalChatAlert{
+				padding:3px;
+				color:red;
+				min-height:20px;
+				position:relative;
+				width:191px;
+				overflow-x:hidden;
+			}
+			</style>
+		
+
+			<div id='globalChatHeader'>
+				<img src='https://d3udgt0w45hpcz.cloudfront.net/chat/header_globalchat.png'>
+			</div>
+
+			<div id='globalChatMessages'>
+				<div id=playerprofile class=playerprofile>
+					<div style='position:absolute;right:2px;top:2px;'>
+						<a href='javascript:void 0;' onClick='hideProfile()');d.style.display="none";'><img src='https://d3udgt0w45hpcz.cloudfront.net/chat/icon_close.png'></a>
+					</div>
+					<div id=playerprofile_inner>
+					</div>
+				</div>
+				<div id='chat_787' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_565296.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(565296,787)'><span id='chatplayer_787' style='color:#FFFFFF'>dillonbrett</span></a>: aaa thanks raz
+		</td></tr></table></div><div id='chat_788' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,788)'><span id='chatplayer_788' style='color:#FFFFFF'>Elaterate</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454110'>Game 19454110</a> 
+		</td></tr></table></div><div id='chat_789' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,789)'><span id='chatplayer_789' style='color:#FFFFFF'>riskllama</span></a>: 2-2, E...
+		</td></tr></table></div><div id='chat_790' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_g193193.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(811842,790)'><span id='chatplayer_790' style='color:#FFFFFF'>alfombra</span></a>: hb xd
+		</td></tr></table></div><div id='chat_791' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,791)'><span id='chatplayer_791' style='color:#FFFFFF'>Elaterate</span></a>: <a target=_blank href='https://www.conquerclub.com/forum/viewtopic.php?f=89&t=231765'>conquerclub.com/forum/viewtopic.php</a> 
+		</td></tr></table></div><div id='chat_792' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_794818.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(794818,792)'><span id='chatplayer_792' style='color:#FFFFFF'>Mokerslag</span></a>: Every day is birthday :) So all to you Happy Birthday 
+		</td></tr></table></div><div id='chat_793' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,793)'><span id='chatplayer_793' style='color:#FFFFFF'>roprotem</span></a>: Hi mok. Nice to see you. Someone said you were dead.
+		</td></tr></table></div><div id='chat_794' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,794)'><span id='chatplayer_794' style='color:#FFFFFF'>roprotem</span></a>: Thank Razorvich
+		</td></tr></table></div><div id='chat_795' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,795)'><span id='chatplayer_795' style='color:#FFFFFF'>roprotem</span></a>: Raz gave you premium, and brought mok back from the dead.
+		</td></tr></table></div><div id='chat_796' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,796)'><span id='chatplayer_796' style='color:#FFFFFF'>roprotem</span></a>: Two CC miracles!
+		</td></tr></table></div><div id='chat_797' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,797)'><span id='chatplayer_797' style='color:#FFFFFF'>roprotem</span></a>: If I only had one wish and had to pick between free CC membership and bring mok back from dead.........I would bring mok back from the dead.
+		</td></tr></table></div><div id='chat_798' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,798)'><span id='chatplayer_798' style='color:#FFFFFF'>roprotem</span></a>: ......unless it was a 12 month membership.
+		</td></tr></table></div><div id='chat_799' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_565296.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(565296,799)'><span id='chatplayer_799' style='color:#FFFFFF'>dillonbrett</span></a>: good o'l mok
+		</td></tr></table></div><div id='chat_800' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_794818.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(794818,800)'><span id='chatplayer_800' style='color:#FFFFFF'>Mokerslag</span></a>: Haha, they  watch to much FoX :)
+		</td></tr></table></div><div id='chat_801' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,801)'><span id='chatplayer_801' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454555'>Game 19454555</a> 
+		</td></tr></table></div><div id='chat_802' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,802)'><span id='chatplayer_802' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454571'>Game 19454571</a> 
+		</td></tr></table></div><div id='chat_803' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,803)'><span id='chatplayer_803' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454649'>Game 19454649</a> 
+		</td></tr></table></div><div id='chat_804' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,804)'><span id='chatplayer_804' style='color:#FFFFFF'>JosephChristophe</span></a>: [g]19454649[/]g
+		</td></tr></table></div><div id='chat_805' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,805)'><span id='chatplayer_805' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454649'>Game 19454649</a> 
+		</td></tr></table></div><div id='chat_806' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,806)'><span id='chatplayer_806' style='color:#FFFFFF'>JosephChristophe</span></a>: NEED ONE MORE <a target=_blank href='//www.conquerclub.com/game.php?game=19454571'>Game 19454571</a> 
+		</td></tr></table></div><div id='chat_807' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_785834.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(785834,807)'><span id='chatplayer_807' style='color:#FFFFFF'>TMWSITY</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454736'>Game 19454736</a> 
+		</td></tr></table></div><div id='chat_808' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,808)'><span id='chatplayer_808' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454907'>Game 19454907</a> 
+		</td></tr></table></div><div id='chat_809' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,809)'><span id='chatplayer_809' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454932'>Game 19454932</a> 
+		</td></tr></table></div><div id='chat_810' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,810)'><span id='chatplayer_810' style='color:#FFFFFF'>JosephChristophe</span></a>: NEED ONE MORE 
+		</td></tr></table></div><div id='chat_811' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_806313.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(806313,811)'><span id='chatplayer_811' style='color:#FFFFFF'>ferranmclaren</span></a>: lock
+		</td></tr></table></div><div id='chat_812' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_806313.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(806313,812)'><span id='chatplayer_812' style='color:#FFFFFF'>ferranmclaren</span></a>: him
+		</td></tr></table></div><div id='chat_813' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_806313.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(806313,813)'><span id='chatplayer_813' style='color:#FFFFFF'>ferranmclaren</span></a>: up
+		</td></tr></table></div><div id='chat_814' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,814)'><span id='chatplayer_814' style='color:#FFFFFF'>Elaterate</span></a>: Quack
+		</td></tr></table></div><div id='chat_815' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,815)'><span id='chatplayer_815' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454968'>Game 19454968</a> 
+		</td></tr></table></div><div id='chat_816' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_400184.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(400184,816)'><span id='chatplayer_816' style='color:#FFFFFF'>drunkmunky</span></a>: replied Ferr - now time for bed :)
+		</td></tr></table></div><div id='chat_817' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,817)'><span id='chatplayer_817' style='color:#FFFFFF'>pmac666</span></a>: quack him up
+		</td></tr></table></div><div id='chat_818' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,818)'><span id='chatplayer_818' style='color:#FFFFFF'>roprotem</span></a>: Where did MyNameIsJack go?
+		</td></tr></table></div><div id='chat_819' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_806313.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(806313,819)'><span id='chatplayer_819' style='color:#FFFFFF'>ferranmclaren</span></a>: wow thats early munky
+		</td></tr></table></div><div id='chat_820' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_806313.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(806313,820)'><span id='chatplayer_820' style='color:#FFFFFF'>ferranmclaren</span></a>: hard time at work?
+		</td></tr></table></div><div id='chat_821' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,821)'><span id='chatplayer_821' style='color:#FFFFFF'>roprotem</span></a>: hmmmm....he's now flying the British Union Jack flag in his profile.
+		</td></tr></table></div><div id='chat_822' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,822)'><span id='chatplayer_822' style='color:#FFFFFF'>roprotem</span></a>: He is a Brit.
+		</td></tr></table></div><div id='chat_823' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,823)'><span id='chatplayer_823' style='color:#FFFFFF'>roprotem</span></a>: trapped in canada
+		</td></tr></table></div><div id='chat_824' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_806313.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(806313,824)'><span id='chatplayer_824' style='color:#FFFFFF'>ferranmclaren</span></a>: who?
+		</td></tr></table></div><div id='chat_825' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,825)'><span id='chatplayer_825' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19454968'>Game 19454968</a> 
+		</td></tr></table></div><div id='chat_826' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,826)'><span id='chatplayer_826' style='color:#FFFFFF'>Elaterate</span></a>: the flag is because of his sitter
+		</td></tr></table></div><div id='chat_827' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,827)'><span id='chatplayer_827' style='color:#FFFFFF'>roprotem</span></a>: where is he?
+		</td></tr></table></div><div id='chat_828' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_337769.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(337769,828)'><span id='chatplayer_828' style='color:#FFFFFF'>roprotem</span></a>: I asked above what happened to Jack.....no reply
+		</td></tr></table></div><div id='chat_829' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(824235,829)'><span id='chatplayer_829' style='color:#FFFFFF'>JosephChristophe</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19455003'>Game 19455003</a> 
+		</td></tr></table></div><div id='chat_830' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,830)'><span id='chatplayer_830' style='color:#FFFFFF'>Elaterate</span></a>: he didn't explain.. he just said RL is too much
+		</td></tr></table></div><div id='chat_831' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(661110,831)'><span id='chatplayer_831' style='color:#FFFFFF'>MSpitts24</span></a>: rt  rt poly speed?
+		</td></tr></table></div><div id='chat_832' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_129192.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(129192,832)'><span id='chatplayer_832' style='color:#FFFFFF'>Makemyday</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19443721'>Game 19443721</a>  - WWII, doubles, flat, seq, unlim, fog, trench
+		</td></tr></table></div><div id='chat_833' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_129192.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(129192,833)'><span id='chatplayer_833' style='color:#FFFFFF'>Makemyday</span></a>: Come and join peps! 4 spots left.
+		</td></tr></table></div><div id='chat_834' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_123359.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(123359,834)'><span id='chatplayer_834' style='color:#FFFFFF'>boat4hire</span></a>: d puke is afraid of me so i cant join
+		</td></tr></table></div><div id='chat_835' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,835)'><span id='chatplayer_835' style='color:#FFFFFF'>pmac666</span></a>: hola
+		</td></tr></table></div><div id='chat_836' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,836)'><span id='chatplayer_836' style='color:#FFFFFF'>pmac666</span></a>: hihihi this is funny
+		</td></tr></table></div><div id='chat_837' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,837)'><span id='chatplayer_837' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.rawstory.com/2019/11/lindsey-graham-rolls-out-new-defense-of-incoherent-trump-who-is-incapable-of-forming-a-quid-pro-quo/'>rawstory.com/2019/11/lindsey-graham-rolls-out-new-defense-of-incoherent-trump-who-is-incapable-of-forming-a-quid-pro-quo/</a> 
+		</td></tr></table></div><div id='chat_838' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,838)'><span id='chatplayer_838' style='color:#FFFFFF'>pmac666</span></a>: now we are at trump is too dumb to be impeached defense line :))
+		</td></tr></table></div><div id='chat_839' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,839)'><span id='chatplayer_839' style='color:#FFFFFF'>Elaterate</span></a>: Novemeber Challenge Tournaments!!!
+		</td></tr></table></div><div id='chat_840' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,840)'><span id='chatplayer_840' style='color:#FFFFFF'>Elaterate</span></a>: <a target=_blank href='https://www.conquerclub.com/forum/viewtopic.php?f=89&t=231765'>conquerclub.com/forum/viewtopic.php</a> 
+		</td></tr></table></div><div id='chat_841' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_807672.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(807672,841)'><span id='chatplayer_841' style='color:#FFFFFF'>Elaterate</span></a>: November* lol
+		</td></tr></table></div><div id='chat_842' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,842)'><span id='chatplayer_842' style='color:#FFFFFF'>pmac666</span></a>: close enough ela lol
+		</td></tr></table></div><div id='chat_843' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(527965,843)'><span id='chatplayer_843' style='color:#FFFFFF'>riggins4441</span></a>: What's  with  the  666 ?  You  and  Satan  butt  buddies ?
+		</td></tr></table></div><div id='chat_844' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,844)'><span id='chatplayer_844' style='color:#FFFFFF'>pmac666</span></a>: see ela why i have chosen it? its always the dummies complaining :D
+		</td></tr></table></div><div id='chat_845' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,845)'><span id='chatplayer_845' style='color:#FFFFFF'>pmac666</span></a>: 666 is a dummytrap as you can see riggins lol
+		</td></tr></table></div><div id='chat_846' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,846)'><span id='chatplayer_846' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=WxnN05vOuSM'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_847' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,847)'><span id='chatplayer_847' style='color:#FFFFFF'>pmac666</span></a>: Woe to you, oh earth and sea For the Devil sends the beast with wrath Because he knows the time is short Let him who hath understanding Reckon the number of the beast For it is a human number Its number is six hundred and sixty six
+		</td></tr></table></div><div id='chat_848' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,848)'><span id='chatplayer_848' style='color:#FFFFFF'>pmac666</span></a>: :))
+		</td></tr></table></div><div id='chat_849' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_123359.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(123359,849)'><span id='chatplayer_849' style='color:#FFFFFF'>boat4hire</span></a>: he fell fer it hook line and sinker
+		</td></tr></table></div><div id='chat_850' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,850)'><span id='chatplayer_850' style='color:#FFFFFF'>pmac666</span></a>: dont mess with the mighty 666 lol
+		</td></tr></table></div><div id='chat_851' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,851)'><span id='chatplayer_851' style='color:#FFFFFF'>pmac666</span></a>: also im a real fan of the original omen....
+		</td></tr></table></div><div id='chat_852' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,852)'><span id='chatplayer_852' style='color:#FFFFFF'>pmac666</span></a>: damieeeeeeeeeeeeen
+		</td></tr></table></div><div id='chat_853' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,853)'><span id='chatplayer_853' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=IJS5p_l5Czg'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_854' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,854)'><span id='chatplayer_854' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=LO3KlIShoHo'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_855' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,855)'><span id='chatplayer_855' style='color:#FFFFFF'>pmac666</span></a>: probably the movie i saw the second most 
+		</td></tr></table></div><div id='chat_856' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,856)'><span id='chatplayer_856' style='color:#FFFFFF'>pmac666</span></a>: undisputed winner there is the good, the bad and the ugly lol
+		</td></tr></table></div><div id='chat_858' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_806313.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(806313,858)'><span id='chatplayer_858' style='color:#FFFFFF'>ferranmclaren</span></a>: you need to step up on racism if you want to honour that 666 more
+		</td></tr></table></div><div id='chat_859' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,859)'><span id='chatplayer_859' style='color:#FFFFFF'>pmac666</span></a>: prolly i should...lol
+		</td></tr></table></div><div id='chat_860' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,860)'><span id='chatplayer_860' style='color:#FFFFFF'>pmac666</span></a>: shoulda join ANTIFA, has anyone their contact adress?
+		</td></tr></table></div><div id='chat_861' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,861)'><span id='chatplayer_861' style='color:#FFFFFF'>MightyMitch</span></a>: Yeah!
+		</td></tr></table></div><div id='chat_862' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,862)'><span id='chatplayer_862' style='color:#FFFFFF'>MightyMitch</span></a>: Just send a letter to Portland, Oregon
+		</td></tr></table></div><div id='chat_863' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,863)'><span id='chatplayer_863' style='color:#FFFFFF'>MightyMitch</span></a>: and they'll recieve it
+		</td></tr></table></div><div id='chat_864' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,864)'><span id='chatplayer_864' style='color:#FFFFFF'>pmac666</span></a>: i love portland
+		</td></tr></table></div><div id='chat_865' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,865)'><span id='chatplayer_865' style='color:#FFFFFF'>MightyMitch</span></a>: I'm in portland lol
+		</td></tr></table></div><div id='chat_866' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,866)'><span id='chatplayer_866' style='color:#FFFFFF'>pmac666</span></a>: the band i saw saturday was from portland 
+		</td></tr></table></div><div id='chat_867' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,867)'><span id='chatplayer_867' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=QBW01NZ04jg'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_868' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,868)'><span id='chatplayer_868' style='color:#FFFFFF'>pmac666</span></a>: likrd it alot and they nearly played 2 hours.....had 3 beers during it
+		</td></tr></table></div><div id='chat_869' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,869)'><span id='chatplayer_869' style='color:#FFFFFF'>pmac666</span></a>: cant remember when i had 3 beers in 2 hours last....lol
+		</td></tr></table></div><div id='chat_870' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,870)'><span id='chatplayer_870' style='color:#FFFFFF'>TDJ-D</span></a>: Quack
+		</td></tr></table></div><div id='chat_871' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(661110,871)'><span id='chatplayer_871' style='color:#FFFFFF'>MSpitts24</span></a>: qucker
+		</td></tr></table></div><div id='chat_872' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(661110,872)'><span id='chatplayer_872' style='color:#FFFFFF'>MSpitts24</span></a>: quacker
+		</td></tr></table></div><div id='chat_873' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,873)'><span id='chatplayer_873' style='color:#FFFFFF'>TDJ-D</span></a>: Whats going on Spittsalot
+		</td></tr></table></div><div id='chat_874' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,874)'><span id='chatplayer_874' style='color:#FFFFFF'>MightyMitch</span></a>: They definitely look like theyre from Portland!
+		</td></tr></table></div><div id='chat_875' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,875)'><span id='chatplayer_875' style='color:#FFFFFF'>MightyMitch</span></a>: Dang, theyre pretty good!
+		</td></tr></table></div><div id='chat_876' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,876)'><span id='chatplayer_876' style='color:#FFFFFF'>pmac666</span></a>: its those liberals, they are better in music
+		</td></tr></table></div><div id='chat_877' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,877)'><span id='chatplayer_877' style='color:#FFFFFF'>MightyMitch</span></a>: Creativity is a more liberal trait
+		</td></tr></table></div><div id='chat_878' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,878)'><span id='chatplayer_878' style='color:#FFFFFF'>MightyMitch</span></a>: Orderly is more conservative 
+		</td></tr></table></div><div id='chat_879' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_651618.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(651618,879)'><span id='chatplayer_879' style='color:#FFFFFF'>SassboT</span></a>: Hey Elaterate, you baby you
+		</td></tr></table></div><div id='chat_880' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,880)'><span id='chatplayer_880' style='color:#FFFFFF'>TDJ-D</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=KCBS5EtszYI&list=RDOYSQtv66k20&index=6'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_881' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,881)'><span id='chatplayer_881' style='color:#FFFFFF'>TDJ-D</span></a>: .. hey now .. 
+		</td></tr></table></div><div id='chat_882' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,882)'><span id='chatplayer_882' style='color:#FFFFFF'>MightyMitch</span></a>: You guys have a good taste in music
+		</td></tr></table></div><div id='chat_883' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,883)'><span id='chatplayer_883' style='color:#FFFFFF'>TDJ-D</span></a>: play something MM
+		</td></tr></table></div><div id='chat_884' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,884)'><span id='chatplayer_884' style='color:#FFFFFF'>MightyMitch</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=ZCEx-7R_QY8'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_885' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,885)'><span id='chatplayer_885' style='color:#FFFFFF'>TDJ-D</span></a>: never heard this band before .. but '' God forgive these bastards '' is a compelling title MM
+		</td></tr></table></div><div id='chat_886' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,886)'><span id='chatplayer_886' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=YlqBXgN7qDI&list=PLvrWACVuHe6rImJAkWvF03xoGjwZkfYYo'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_887' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,887)'><span id='chatplayer_887' style='color:#FFFFFF'>TDJ-D</span></a>: Favorite line, '' I need you like I need a gapping head wound''
+		</td></tr></table></div><div id='chat_888' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,888)'><span id='chatplayer_888' style='color:#FFFFFF'>MightyMitch</span></a>: Lol good lyrics
+		</td></tr></table></div><div id='chat_889' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,889)'><span id='chatplayer_889' style='color:#FFFFFF'>MightyMitch</span></a>: Pmac, thats a good one too
+		</td></tr></table></div><div id='chat_890' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,890)'><span id='chatplayer_890' style='color:#FFFFFF'>MightyMitch</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=I52PFnO4lLk'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_891' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,891)'><span id='chatplayer_891' style='color:#FFFFFF'>MightyMitch</span></a>: I gtg to class. Thanks for the good music guys
+		</td></tr></table></div><div id='chat_892' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,892)'><span id='chatplayer_892' style='color:#FFFFFF'>TDJ-D</span></a>: Big Bad Voodoo Daddy is better imo
+		</td></tr></table></div><div id='chat_893' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,893)'><span id='chatplayer_893' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=l4XZWZ91kfc'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_894' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,894)'><span id='chatplayer_894' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=XxCZC5dF8D8'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_895' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,895)'><span id='chatplayer_895' style='color:#FFFFFF'>pmac666</span></a>: A-E-DUB time :))
+		</td></tr></table></div><div id='chat_896' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,896)'><span id='chatplayer_896' style='color:#FFFFFF'>riskllama</span></a>: *gaping
+		</td></tr></table></div><div id='chat_897' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,897)'><span id='chatplayer_897' style='color:#FFFFFF'>TDJ-D</span></a>: Smelly
+		</td></tr></table></div><div id='chat_898' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,898)'><span id='chatplayer_898' style='color:#FFFFFF'>TDJ-D</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=xJJsoquu70o'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_899' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,899)'><span id='chatplayer_899' style='color:#FFFFFF'>TDJ-D</span></a>: Puddle of Mudd 
+		</td></tr></table></div><div id='chat_900' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,900)'><span id='chatplayer_900' style='color:#FFFFFF'>riskllama</span></a>: lol, that's a terrible band.
+		</td></tr></table></div><div id='chat_901' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,901)'><span id='chatplayer_901' style='color:#FFFFFF'>TDJ-D</span></a>: Play something smelly one 
+		</td></tr></table></div><div id='chat_902' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,902)'><span id='chatplayer_902' style='color:#FFFFFF'>riskllama</span></a>: <a target=_blank href='https://youtu.be/65WtlduIdDA'>youtu.be/65WtlduIdDA</a> 
+		</td></tr></table></div><div id='chat_903' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,903)'><span id='chatplayer_903' style='color:#FFFFFF'>TDJ-D</span></a>: I have saved that one llama its ur first, a good one
+		</td></tr></table></div><div id='chat_904' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,904)'><span id='chatplayer_904' style='color:#FFFFFF'>riskllama</span></a>: oh yeah, i did post that recently...
+		</td></tr></table></div><div id='chat_905' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,905)'><span id='chatplayer_905' style='color:#FFFFFF'>riskllama</span></a>: <a target=_blank href='https://youtu.be/2orlxRgVABM'>youtu.be/2orlxRgVABM</a> 
+		</td></tr></table></div><div id='chat_906' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,906)'><span id='chatplayer_906' style='color:#FFFFFF'>TDJ-D</span></a>: The grapefruit eye .. 
+		</td></tr></table></div><div id='chat_907' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,907)'><span id='chatplayer_907' style='color:#FFFFFF'>riskllama</span></a>: indeed.
+		</td></tr></table></div><div id='chat_908' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,908)'><span id='chatplayer_908' style='color:#FFFFFF'>riskllama</span></a>: sorry, been leaving early & coming home late all week.
+		</td></tr></table></div><div id='chat_909' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,909)'><span id='chatplayer_909' style='color:#FFFFFF'>riskllama</span></a>: kinda bagged...
+		</td></tr></table></div><div id='chat_910' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,910)'><span id='chatplayer_910' style='color:#FFFFFF'>TDJ-D</span></a>: ... '' nail in my head ''... who knows the song
+		</td></tr></table></div><div id='chat_911' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,911)'><span id='chatplayer_911' style='color:#FFFFFF'>pmac666</span></a>: thats a song? :D
+		</td></tr></table></div><div id='chat_912' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,912)'><span id='chatplayer_912' style='color:#FFFFFF'>riskllama</span></a>: <a target=_blank href='https://youtu.be/UVt9h7wKvHY'>youtu.be/UVt9h7wKvHY</a> 
+		</td></tr></table></div><div id='chat_913' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,913)'><span id='chatplayer_913' style='color:#FFFFFF'>riskllama</span></a>: <a target=_blank href='https://youtu.be/QEfDYmx5njc'>youtu.be/QEfDYmx5njc</a> 
+		</td></tr></table></div><div id='chat_914' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,914)'><span id='chatplayer_914' style='color:#FFFFFF'>riskllama</span></a>: matt pike is lord, TDJ...
+		</td></tr></table></div><div id='chat_915' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,915)'><span id='chatplayer_915' style='color:#FFFFFF'>TDJ-D</span></a>: sounds like a band with a mosh pit 
+		</td></tr></table></div><div id='chat_916' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,916)'><span id='chatplayer_916' style='color:#FFFFFF'>pmac666</span></a>: did you see the vid of the band i saw saturday lama?
+		</td></tr></table></div><div id='chat_917' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,917)'><span id='chatplayer_917' style='color:#FFFFFF'>pmac666</span></a>: they were quite good
+		</td></tr></table></div><div id='chat_918' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,918)'><span id='chatplayer_918' style='color:#FFFFFF'>pmac666</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=QBW01NZ04jg'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_920' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,920)'><span id='chatplayer_920' style='color:#FFFFFF'>TDJ-D</span></a>: Ok so the first lyric was too hard or too old.  Heres an more modern lyric.  Who can name the song that begins ''.. so this is it..''
+		</td></tr></table></div><div id='chat_921' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_783674.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(783674,921)'><span id='chatplayer_921' style='color:#FFFFFF'>TDJ-D</span></a>: Hmm I will investigate that claim llama
+		</td></tr></table></div><div id='chat_922' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,922)'><span id='chatplayer_922' style='color:#FFFFFF'>nietzsche</span></a>: llama?
+		</td></tr></table></div><div id='chat_923' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,923)'><span id='chatplayer_923' style='color:#FFFFFF'>nietzsche</span></a>: this is boring
+		</td></tr></table></div><div id='chat_924' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,924)'><span id='chatplayer_924' style='color:#FFFFFF'>pmac666</span></a>: when lama doesnt have time fr you nietz i gladly help out :)) 
+		</td></tr></table></div><div id='chat_925' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,925)'><span id='chatplayer_925' style='color:#FFFFFF'>nietzsche</span></a>: so i'll tell a little story
+		</td></tr></table></div><div id='chat_926' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,926)'><span id='chatplayer_926' style='color:#FFFFFF'>pmac666</span></a>: I LISTEN
+		</td></tr></table></div><div id='chat_927' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,927)'><span id='chatplayer_927' style='color:#FFFFFF'>pmac666</span></a>: ops
+		</td></tr></table></div><div id='chat_928' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,928)'><span id='chatplayer_928' style='color:#FFFFFF'>nietzsche</span></a>: I remember when Pancho Villa's army arrived to the streets to Ciudad Juarez
+		</td></tr></table></div><div id='chat_929' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,929)'><span id='chatplayer_929' style='color:#FFFFFF'>nietzsche</span></a>: I was like 4 at the time
+		</td></tr></table></div><div id='chat_930' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,930)'><span id='chatplayer_930' style='color:#FFFFFF'>nietzsche</span></a>: but somehow I remember
+		</td></tr></table></div><div id='chat_931' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,931)'><span id='chatplayer_931' style='color:#FFFFFF'>nietzsche</span></a>: I told my grandma, ''nana, why are those bad men with horses destroying stuff''
+		</td></tr></table></div><div id='chat_932' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,932)'><span id='chatplayer_932' style='color:#FFFFFF'>nietzsche</span></a>: ''are they going to hurt me nana??''
+		</td></tr></table></div><div id='chat_933' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,933)'><span id='chatplayer_933' style='color:#FFFFFF'>pmac666</span></a>: i remember franz klammer winning the streif in 1978....and elvis funeral
+		</td></tr></table></div><div id='chat_934' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,934)'><span id='chatplayer_934' style='color:#FFFFFF'>pmac666</span></a>: i was 4 too
+		</td></tr></table></div><div id='chat_935' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,935)'><span id='chatplayer_935' style='color:#FFFFFF'>nietzsche</span></a>: and my nana said, ''Not even Pancho Villa's men are evil enough to hurt a little 4yo handsome kid like you''
+		</td></tr></table></div><div id='chat_936' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,936)'><span id='chatplayer_936' style='color:#FFFFFF'>nietzsche</span></a>: Pancho VIlla's men hated us, because my grandfather was a big landowner 
+		</td></tr></table></div><div id='chat_937' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,937)'><span id='chatplayer_937' style='color:#FFFFFF'>pmac666</span></a>: when has he died?
+		</td></tr></table></div><div id='chat_938' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://i.imgur.com/YVRJLQu.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(582738,938)'><span id='chatplayer_938' style='color:#FFFFFF'>catstevens</span></a>: you stink of privilege, now it all makes sense
+		</td></tr></table></div><div id='chat_939' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,939)'><span id='chatplayer_939' style='color:#FFFFFF'>nietzsche</span></a>: my father escaped first
+		</td></tr></table></div><div id='chat_940' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,940)'><span id='chatplayer_940' style='color:#FFFFFF'>pmac666</span></a>: thought pancho villa must be lot older
+		</td></tr></table></div><div id='chat_941' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,941)'><span id='chatplayer_941' style='color:#FFFFFF'>nietzsche</span></a>: he dressed as a poor worker and was able to escape
+		</td></tr></table></div><div id='chat_942' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,942)'><span id='chatplayer_942' style='color:#FFFFFF'>pmac666</span></a>: or you are a methusalem
+		</td></tr></table></div><div id='chat_943' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,943)'><span id='chatplayer_943' style='color:#FFFFFF'>nietzsche</span></a>: Pancho Villa's men had the place surrounded
+		</td></tr></table></div><div id='chat_944' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://i.imgur.com/YVRJLQu.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(582738,944)'><span id='chatplayer_944' style='color:#FFFFFF'>catstevens</span></a>: he appropriated a poor worker you mean
+		</td></tr></table></div><div id='chat_945' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,945)'><span id='chatplayer_945' style='color:#FFFFFF'>nietzsche</span></a>: my mom escaped later, she asked permission to take a vacation in Puerto Peasco and never returned
+		</td></tr></table></div><div id='chat_946' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,946)'><span id='chatplayer_946' style='color:#FFFFFF'>nietzsche</span></a>: they sent for me later
+		</td></tr></table></div><div id='chat_947' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,947)'><span id='chatplayer_947' style='color:#FFFFFF'>nietzsche</span></a>: I remember i didn't speak the language of the other Mexican town to which we moved
+		</td></tr></table></div><div id='chat_948' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,948)'><span id='chatplayer_948' style='color:#FFFFFF'>nietzsche</span></a>: I don't know why, in Mexico we speak spanish all of us, but i don't know why i didn't
+		</td></tr></table></div><div id='chat_949' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,949)'><span id='chatplayer_949' style='color:#FFFFFF'>pmac666</span></a>: lol pancho villa died 1923
+		</td></tr></table></div><div id='chat_950' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,950)'><span id='chatplayer_950' style='color:#FFFFFF'>nietzsche</span></a>: but I remember i used to listen to a little gay song
+		</td></tr></table></div><div id='chat_951' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,951)'><span id='chatplayer_951' style='color:#FFFFFF'>nietzsche</span></a>: the first spanish words i learned
+		</td></tr></table></div><div id='chat_952' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,952)'><span id='chatplayer_952' style='color:#FFFFFF'>pmac666</span></a>: means your 96 atleast lol
+		</td></tr></table></div><div id='chat_953' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://i.imgur.com/YVRJLQu.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(582738,953)'><span id='chatplayer_953' style='color:#FFFFFF'>catstevens</span></a>: some people speak native languages you idiot
+		</td></tr></table></div><div id='chat_954' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,954)'><span id='chatplayer_954' style='color:#FFFFFF'>pmac666</span></a>: wow cathy, how did you come to that conclusion
+		</td></tr></table></div><div id='chat_955' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://i.imgur.com/YVRJLQu.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(582738,955)'><span id='chatplayer_955' style='color:#FFFFFF'>catstevens</span></a>: such as kickapoo you idiot colonizer
+		</td></tr></table></div><div id='chat_956' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_428926.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(428926,956)'><span id='chatplayer_956' style='color:#FFFFFF'>cdbridges</span></a>: Villa retired in 1920, Nietzsche, you'd have to be over 105 for that story to be true.
+		</td></tr></table></div><div id='chat_957' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,957)'><span id='chatplayer_957' style='color:#FFFFFF'>pmac666</span></a>: yeah i forgot 4 yrs there, in best case hes exactly100 lol
+		</td></tr></table></div><div id='chat_958' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_681110.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(681110,958)'><span id='chatplayer_958' style='color:#FFFFFF'>pmac666</span></a>: he could have avoided that blamage simple by talking to me....i wouldnt have checked it :))
+		</td></tr></table></div><div id='chat_959' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,959)'><span id='chatplayer_959' style='color:#FFFFFF'>MightyMitch</span></a>: What's up with people who like risk and having a good taste in music?
+		</td></tr></table></div><div id='chat_960' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_837037.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(837037,960)'><span id='chatplayer_960' style='color:#FFFFFF'>MightyMitch</span></a>: Listening to Llamas right now. good stuff
+		</td></tr></table></div><div id='chat_961' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(661110,961)'><span id='chatplayer_961' style='color:#FFFFFF'>MSpitts24</span></a>: yup, he's a hoot
+		</td></tr></table></div><div id='chat_962' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(661110,962)'><span id='chatplayer_962' style='color:#FFFFFF'>MSpitts24</span></a>: Cathy, I hpe your concussion is OK
+		</td></tr></table></div><div id='chat_963' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,963)'><span id='chatplayer_963' style='color:#FFFFFF'>nietzsche</span></a>: i'm a vampire
+		</td></tr></table></div><div id='chat_964' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,964)'><span id='chatplayer_964' style='color:#FFFFFF'>nietzsche</span></a>: i stopped getting older at 32
+		</td></tr></table></div><div id='chat_965' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,965)'><span id='chatplayer_965' style='color:#FFFFFF'>nietzsche</span></a>: you know what, i need a new mouse, i've had this one for like 12 years
+		</td></tr></table></div><div id='chat_966' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,966)'><span id='chatplayer_966' style='color:#FFFFFF'>nietzsche</span></a>: recommend one that isn't wireless
+		</td></tr></table></div><div id='chat_967' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_56776.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(56776,967)'><span id='chatplayer_967' style='color:#FFFFFF'>nietzsche</span></a>: and that it is available at amazon.com.mx
+		</td></tr></table></div><div id='chat_968' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(785422,968)'><span id='chatplayer_968' style='color:#FFFFFF'>menonamed</span></a>: who here is a fan of the show torchwood?
+		</td></tr></table></div><div id='chat_969' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,969)'><span id='chatplayer_969' style='color:#FFFFFF'>riskllama</span></a>: never heard of it.
+		</td></tr></table></div><div id='chat_970' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_663995.jpeg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(663995,970)'><span id='chatplayer_970' style='color:#FFFFFF'>riskllama</span></a>: i liked deadwood quite a bit, tho.
+		</td></tr></table></div><div id='chat_971' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/static/icon.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(661110,971)'><span id='chatplayer_971' style='color:#FFFFFF'>MSpitts24</span></a>: ED probs RL?
+		</td></tr></table></div><div id='chat_972' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_254840.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(254840,972)'><span id='chatplayer_972' style='color:#FFFFFF'>Quirk</span></a>: <a target=_blank href='https://www.youtube.com/watch?v=iu_YVswb3p4'>youtube.com/watch</a> 
+		</td></tr></table></div><div id='chat_973' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_204382.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(204382,973)'><span id='chatplayer_973' style='color:#FFFFFF'>D3A7H</span></a>: nietz and duk seem to have very similar life experience
+		</td></tr></table></div><div id='chat_974' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,974)'><span id='chatplayer_974' style='color:#FFFFFF'>Free Syrian Army</span></a>: Hi. Can someone help me out here ?
+		</td></tr></table></div><div id='chat_975' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,975)'><span id='chatplayer_975' style='color:#FFFFFF'>Free Syrian Army</span></a>: I'm playing. WW2 Europe. A multiplayer.
+		</td></tr></table></div><div id='chat_976' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,976)'><span id='chatplayer_976' style='color:#FFFFFF'>Free Syrian Army</span></a>: Some guy is cheating
+		</td></tr></table></div><div id='chat_977' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,977)'><span id='chatplayer_977' style='color:#FFFFFF'>Free Syrian Army</span></a>: 19416913
+		</td></tr></table></div><div id='chat_978' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,978)'><span id='chatplayer_978' style='color:#FFFFFF'>Free Syrian Army</span></a>: I think he has a double account 
+		</td></tr></table></div><div id='chat_979' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,979)'><span id='chatplayer_979' style='color:#FFFFFF'>Free Syrian Army</span></a>: Xzaero is totally playing to assist Thewildmanimal 
+		</td></tr></table></div><div id='chat_980' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,980)'><span id='chatplayer_980' style='color:#FFFFFF'>Free Syrian Army</span></a>: I have checked on the other games they are playing. Xzaero pretty much plays immediately after Thewildmanimal on all their games
+		</td></tr></table></div><div id='chat_981' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,981)'><span id='chatplayer_981' style='color:#FFFFFF'>Free Syrian Army</span></a>: Xzaero sacrificed the rest of his position and deployed everything so as to stop me from hitting Thewildmannimal
+		</td></tr></table></div><div id='chat_982' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,982)'><span id='chatplayer_982' style='color:#FFFFFF'>Free Syrian Army</span></a>: They are. totally cheating and it's probably a double account. What do I do ?
+		</td></tr></table></div><div id='chat_983' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,983)'><span id='chatplayer_983' style='color:#FFFFFF'>Free Syrian Army</span></a>: 19416913
+		</td></tr></table></div><div id='chat_984' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,984)'><span id='chatplayer_984' style='color:#FFFFFF'>Free Syrian Army</span></a>: I have looked through the games they are playing together. They don't attack each other and Xzaero plays immediately after Thewildmannimal. They even have very similar photos other profile pages.
+		</td></tr></table></div><div id='chat_985' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,985)'><span id='chatplayer_985' style='color:#FFFFFF'>Free Syrian Army</span></a>: They even have very similar photos on their  profile pages.
+		</td></tr></table></div><div id='chat_986' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,986)'><span id='chatplayer_986' style='color:#FFFFFF'>Free Syrian Army</span></a>: This kind of crap is super bad for CC.
+		</td></tr></table></div><div id='chat_987' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_204382.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(204382,987)'><span id='chatplayer_987' style='color:#FFFFFF'>D3A7H</span></a>: <a target=_blank href='//www.conquerclub.com/game.php?game=19416913'>Game 19416913</a> 
+		</td></tr></table></div><div id='chat_988' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://www.conquerclub.com/forum/images/avatars/upload/4b71c7e2617aa176b66db840349e9fbb_204382.jpg'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(204382,988)'><span id='chatplayer_988' style='color:#FFFFFF'>D3A7H</span></a>: idk FSA.  They have both been around for years and only have 3 games together.
+		</td></tr></table></div><div id='chat_989' class=chat><table cellpadding=0 cellspacing=2 width=185><tr><td width=20><div style='max-height:35px;overflow:hidden;'><img src='https://imageshack.com/a/img923/8255/uL517k.png'  width='20' ></div></td><td align=left>
+			<a  href='javascript:void 0;' onClick='showProfile(286841,989)'><span id='chatplayer_989' style='color:#FFFFFF'>Free Syrian Army</span></a>: Well, they're cheating on this game.
+		</td></tr></table></div>
+			</div>
+
+			<div style='text-align:center;'>
+				<form id='globalChatForm' class='ccform' action='player.php?mode=mygames1' method='post' onsubmit='if (addingchat) return false; else return sendChat();'>
+					<input  id=globalChatMessage name=globalChatMessage onChange='this.focus();' autocomplete='off' >
+					<div id=globalChatSubmit onClick='javascript:if (addingchat) return false; else return sendChat();' >SUBMIT</div>
+					<!--<button type=submit value=Submit style='font-family:arial;font-weight:bold;width:100%;background-color:#899988;color:white;cursor: pointer; cursor: hand;' >SUBMIT</button>-->
+				</form>
+			</div>
+
+			<div id=globalChatAlert></div>
+
+			<div id=globalChatMute>
+					Muted Users<br>
+				
+			</div>
+		
+			<div id=globalChatNav>
+				<a href='/player.php?mode=chat'>CHAT ROOM</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='/forum'>FORUM</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='javascript: void 0;' onClick='javascript:chat_togglehelp();'><span style='position:relative;'><span id=chat_help class=chatHelp><u>ChatCode</u><br>[g]GameNo[/g]: Game Link<br>Hurrah: Hurrah!</span><span>?</span></span></a>
+			</div>
+
+		</div>
+		<script>
+		var chathide = false;
+		var chatshowingame = false;
+    
+		function toggleprofile(id){
+			d=document.getElementById('profile_'+id);
+			if (d) d.style.display=(d.style.display=='none' || d.style.display=='' ) ? 'block' : 'none';
+		}
+
+		$(document).ready(
+			function() {
+				$('#globalChatMessages').niceScroll({cursorcolor:'#CCC'});
+				globalChatMessage = document.getElementById('globalChatMessage');
+				if (globalChatMessage){
+					if (typeof toggleChatting == 'function') {
+						globalChatMessage.onfocus = toggleChatting;
+						globalChatMessage.onblur = toggleChatting;
+					}
+				}
+				//timing issues when including this in .ready
+				window.setTimeout("$('#globalChatMessages').scrollTop($('#globalChatMessages')[0].scrollHeight)",500);
+			}
+		);
+
+			function chat_togglehelp(){
+				d=document.getElementById('chat_help');
+				if (d) d.style.display=(d.style.display=='none' || d.style.display=='' ) ? 'block' : 'none';
+
+			}
+
+		showchat();</script>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+<div id="footer" class="inside" style='margin:0px;padding:0px;padding-top:20px;height:60px;position:relative;width:auto;'>
+
+<!-- footer begin -->
+
+<!--<div id=footer_nav class=footerNav style='height:100%;z-index:1;border2:thin solid red;position:absolute;left:10px;'>-->
+<table width=100% border=0>
+<tr height=40>
+<td  align=left valign=center>
+<div id=footer_nav class=footerNav   style='display: table-cell;height:30px;vertical-align:middle;'>
+		<a  href="/player.php?mode=mygames1">Central Command</a> |
+		<a href="https://www.conquerclub.com/player.php?mode=store">Store</a> |
+	<a  href="/public.php?mode=termsofuse">Terms Of Use</a> |
+	<a  href="/public.php?mode=privacy">Privacy Policy</a> |
+	<a href="/public.php?mode=rules">Rules</a> |
+	<a  href="/public.php?mode=contact">Contact</a> |
+	<a  href="javascript:void 0;" onClick="javascript:resetpanels();">Reset Panels</a>
+</div>
+</td>
+<td width=20></td>
+<td align=center>
+<div id=footer_copyright   style='width:100%;text-align:center;display: table-cell;height:30px;vertical-align:middle;'>
+Conquer Club is not associated with RISK online in any way. Copyright &copy; 2006-2019 by Big Wham LLC</div>
+</td>
+<td width=20></td>
+<td  align=right>
+<div id=footer_social>
+<a style='padding-left:5px;padding-right:5px;' href='https://facebook.com/conquerclub' target=_blank><img border=0 src='https://d3udgt0w45hpcz.cloudfront.net/social/footer-facebookicon.png'></a>
+<a style='padding-left:5px;padding-right:5px;' href='https://twitter.com/conquerclub' target=_blank><img src='https://d3udgt0w45hpcz.cloudfront.net/social/footer-twittericon.png'></a>
+</div>
+<!-- footer end -->
+</td>
+</tr>
+</table>
+
+
+</div>
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<div style="display:none">
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1032897295;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+</div>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1032897295/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+</body>
+</html>
+
